@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG - Voluntária</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <nav class="menu">
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="hamburguer">☰</label>
+
+    <ul class="menu-lista">
+        <li><a href="#inicio">Início</a></li>
+
+        <li class="dropdown">
+            <a href="#projetos">Projetos</a>
+
+            <ul class="submenu">
+                <li><a href="#projeto1">Projeto 1</a></li>
+                <li><a href="#projeto2">Projeto 2</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#voluntariar">Voluntariado</a></li>
+    </ul>
+
+</nav>
+
+
+
+    <section class="main" id="inicio">
+      <h1>ONG <br> Voluntária</h1>
+      <p>Pequenas atitudes mudam vidas inteiras</p>
+    
+      <img src="1-Favela.png">
+    </section>
+ 
+    <section class="projetos" id="projeto1">
+        <h2> Conheça nossos projetos</h2>
+        <ul>
+            
+             <h3>1 - Reforço Escolar e Profissionalizante para Todos: </h3>
+            <li>
+                Acreditamos que educação abre portas para o futuro. Por isso, oferecemos reforço em Língua Portuguesa, línguas estrangeiras, Informática, Elétrica e outros cursos profinalizantes que inspiram nossos jovens a sonharem com uma profissão. Além disso, temos oficinas para todos: curso de Libras, música, artes, capoeira, lutas e futebol. É um espaço onde cada um aprende, se expressa e descobre seu potencial.
+            </li>
+                <h4>Curso de Diversidade Religiosa: </h4>
+                <li>Para diminuir o preconceito, criamos um curso que ensine a história e os princípios das principais religiões no mundo, como: Cristianismo, Umbanda, Candomblé, Islamismo, Judaímo, Budismo entre outros. Não é para pregar uma religião, mas para explicar o que  cada uma acredita, seus valores e cultura. <b> Quando a gente conhece, a gente aprende a respeitar.</b></li>
+
+            <h3>2 - Doação de Materiais Alimentos e Roupas:</h3>
+                <li>Nossa campanha solidária arrecada e distribui não apenas kits escolares, mas também cestas básicas e roupas em bom estado. Sabemos que muitas familias precisam de apoio completo, e queremos garantir dignidade, alimentação e condições para que as crianças e adultos possam estudar e viver melhor.
+                </li>
+                <h3>3 - Alfabetização de Jovens e Adultos: </h3>
+                <li>Aulas noturnas gratuitas para jovenns e adultos que não tiveram oportunidade de estudar na infancia. Nosso objetivo é alfabetizar e dar autonomina para que possam ler, escrever e conquistar melhores oportunidades de trabalho</li>
+
+        </ul>
+    </section>
+
+    <section class="voluntariar" id="voluntariar">
+        <h2>Seja um voluntário</h2>
+
+        <form>
+          <label> NOME : <input type="text" name="name" required placeholder="Digite seu nome"> </label>
+            <BR>
+          <label> TEL : <input type="tel" name="tel" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(21)9999-9999"> </label>
+            <BR>
+           <label> CPF: <input type="text" name="cpf" pattern="\d{3}.\d{3}.\d{3}-\d{2} " placeholder="000.000.000-00"> </label>
+           <BR>
+           <button type="submit">Enviar</button>
+        </form>
+
+        <!-- =========================
+     COMPONENTES DE FEEDBACK
+========================== -->
+
+<section class="feedback">
+
+    <h2>Informações e feedback</h2>
+
+    <!-- BADGES -->
+    <div class="feedback-bloco">
+
+        <h3>Badges</h3>
+
+        <span class="badge badge-ativo">ATIVO</span>
+        <span class="badge badge-novo">NOVO</span>
+        <span class="badge badge-destaque">DESTAQUE</span>
+
+    </div>
+
+
+    <!-- ALERTA -->
+    <div class="feedback-bloco">
+
+        <h3>Alerta</h3>
+
+        <div class="alerta alerta-sucesso">
+            <strong>✓ Sucesso!</strong>
+            Seu cadastro foi realizado com sucesso.
+        </div>
+
+    </div>
+
+
+    <!-- TOAST -->
+    <div class="feedback-bloco">
+
+        <h3>Notificação</h3>
+
+        <div class="toast">
+            <strong>✓ Mensagem enviada!</strong>
+            Obrigado por querer fazer parte da nossa ONG.
+        </div>
+
+    </div>
+
+</section>
+</body>
+</html>
